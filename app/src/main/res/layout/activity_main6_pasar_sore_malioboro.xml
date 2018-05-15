@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar"
+    android:id="@+id/Main6PasarSoreMalioboro"
+    tools:context="com.example.anas.myapplication1.Main6PasarSoreMalioboro">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/pasarsoremalioboro" />
+        <TextView
+            android:layout_width="396dp"
+            android:layout_marginTop="275dp"
+            android:layout_height="match_parent"
+            android:text="@string/PasarSoreMalioboro"
+            android:textSize="15dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="@color/color8"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/PasarSoreMalioboro"/>
+        <TextView
+            android:id="@+id/textViewLinkpasarsore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color1"
+            android:layout_marginTop="700dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@color/color7"
+            android:text="LihatPeta" />
+
+
+    </FrameLayout>
+</ScrollView>

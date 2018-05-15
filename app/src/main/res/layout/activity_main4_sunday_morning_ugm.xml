@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar"
+    tools:context="com.example.anas.myapplication1.Main4SundayMorningUGM">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/sunmore6" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="220dp"
+            android:src="@drawable/sunmore5" />
+
+        <TextView
+            android:id="@+id/textViewLink6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color1"
+            android:layout_marginTop="1000dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@color/color7"
+            android:text="LihatPeta" />
+
+        <TextView
+            android:id="@+id/SunmorUGM"
+            android:layout_width="396dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="casual"
+            android:layout_marginTop="500dp"
+            android:text="@string/SunmorUGM"
+            android:textColor="@color/color8"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+</ScrollView>

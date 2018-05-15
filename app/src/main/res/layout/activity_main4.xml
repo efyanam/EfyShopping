@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/batikkawingwall"
+    android:layout_height="match_parent"
+    android:id="@+id/Main4Activity"
+    tools:context="com.example.anas.myapplication1.Main4Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/color7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Daftar Wisata Belanja Sleman"
+            android:textColor="@color/color1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="27dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonpasargodean"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp"
+        android:textColor="@color/color1"
+        android:background="@color/color4"
+        android:text="Pasar Godean"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/buttonbakpia25bandarajaya"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="14dp"
+        android:textSize="20dp"
+        android:textColor="@color/color1"
+        android:background="@color/color4"
+        android:text="Bakpia 25 BandaraJaya Sleman"
+        android:layout_below="@+id/buttonpasargodean"
+        android:layout_alignLeft="@+id/buttonpasargodean"
+        android:layout_alignStart="@+id/buttonpasargodean" />
+    <Button
+        android:id="@+id/buttonpusattasdowa"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/color1"
+        android:background="@color/color4"
+        android:text="Pusat Tas Dowa"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/buttonbakpia25bandarajaya"
+        android:layout_alignStart="@+id/buttonbakpia25bandarajaya" />
+    <Button
+        android:id="@+id/buttonRaihanoleholehhaji"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/color1"
+        android:background="@color/color4"
+        android:text="Raihan Oleh-oleh Haji"
+        android:layout_below="@+id/buttonpusattasdowa"
+        android:layout_alignLeft="@+id/buttonpusattasdowa"
+        android:layout_alignStart="@+id/buttonpusattasdowa" />
+    <Button
+        android:id="@+id/buttonsundaymorningUGM"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="14dp"
+        android:textSize="20dp"
+        android:textColor="@color/color1"
+        android:background="@color/color4"
+        android:text="Sunday Morning Market UGM"
+        android:layout_below="@+id/buttonRaihanoleholehhaji"
+        android:layout_alignLeft="@+id/buttonRaihanoleholehhaji"
+        android:layout_alignStart="@+id/buttonRaihanoleholehhaji" />
+
+
+
+
+</RelativeLayout>

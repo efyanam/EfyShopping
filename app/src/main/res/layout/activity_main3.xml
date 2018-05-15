@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondo"
+    android:layout_height="match_parent"
+    android:id="@+id/Main3Activity"
+    tools:context="com.example.anas.myapplication1.Main3Activity">
+
+
+
+        <TextView
+            android:id="@+id/texthome"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/color1"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="1dp"
+            android:background="@color/color4"
+            android:fontFamily="casual"
+            android:text="HOME" />
+
+
+        <Button
+            android:id="@+id/buttonsleman"
+            android:layout_width="209dp"
+            android:layout_height="123dp"
+            android:text="Sleman"
+            android:background="@drawable/buttonsleman"
+            android:textColor="@color/color8"
+            android:textSize="25dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginEnd="43dp"
+            android:layout_alignTop="@+id/texthome"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="27dp" />
+        <Button
+            android:id="@+id/buttonBantul"
+            android:layout_width="209dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="110dp"
+            android:textSize="25dp"
+            android:textColor="@color/color8"
+            android:background="@drawable/buttonbantul"
+            android:layout_alignLeft="@+id/texthome"
+            android:layout_alignStart="@+id/texthome"
+            android:text="Bantul" />
+
+
+
+        <Button
+            android:id="@+id/buttonyogya"
+            android:layout_width="251dp"
+            android:layout_height="136dp"
+            android:background="@drawable/buttonyogya"
+            android:text="Yogyakarta"
+            android:textColor="@color/color8"
+            android:textSize="25dp"
+            android:layout_below="@+id/buttonsleman"
+            android:layout_alignRight="@+id/buttonsleman"
+            android:layout_alignEnd="@+id/buttonsleman" />
+
+
+
+
+</RelativeLayout>

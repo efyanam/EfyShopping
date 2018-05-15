@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar"
+    android:id="@+id/Main6PasarBeringharjo"
+    tools:context="com.example.anas.myapplication1.Main6PasarBeringharjo">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/beringharjo3" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_marginTop="220dp"
+            android:layout_height="250dp"
+            android:src="@drawable/beringharjo2" />
+        <TextView
+            android:layout_width="396dp"
+            android:layout_marginTop="478dp"
+            android:fontFamily="casual"
+            android:layout_height="match_parent"
+            android:text="@string/PasarBeringharjo"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/color8"
+            android:id="@+id/PasarBeringharjo"/>
+        <TextView
+            android:id="@+id/textViewLinkberingharjo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color1"
+            android:layout_marginTop="990dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@color/color7"
+            android:text="LihatPeta" />
+
+
+    </FrameLayout>
+</ScrollView>

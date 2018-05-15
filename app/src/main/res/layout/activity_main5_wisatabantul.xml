@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/Main5Wisatabantul"
+    android:layout_height="match_parent"
+    android:background="@drawable/batikkawingwall"
+    tools:context="com.example.anas.myapplication1.Main5Wisatabantul">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/color7"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Daftar Wisata Belanja Bantul"
+                android:textColor="@color/color1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="27dp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonpasarkasongan"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="Wisata Belanja Kasongan"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignLeft="@+id/buttonwisatakrebet"
+            android:layout_alignStart="@+id/buttonwisatakrebet" />
+        <Button
+            android:id="@+id/buttonpasarkulitmanding"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="21dp"
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="Kerajinan Kulit Manding"
+            android:layout_below="@+id/buttonpasarkasongan"
+            android:layout_alignLeft="@+id/buttonpasarkasongan"
+            android:layout_alignStart="@+id/buttonpasarkasongan" />
+        <Button
+            android:id="@+id/buttonpasarklitikan"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="Pasar Klitikan"
+            android:layout_below="@+id/buttonpasarkulitmanding"
+            android:layout_alignLeft="@+id/buttonpasarkulitmanding"
+            android:layout_alignStart="@+id/buttonpasarkulitmanding"
+            android:layout_marginTop="22dp" />
+        <Button
+            android:id="@+id/buttonwisatakrebet"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="Wisata Belanja Krebet"
+            android:layout_below="@+id/buttonpasarklitikan"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:id="@+id/buttonpasarsenigabusan"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="21dp"
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="Pasar Seni Gabusan"
+            android:layout_below="@+id/buttonwisatakrebet"
+            android:layout_alignLeft="@+id/buttonwisatakrebet"
+            android:layout_alignStart="@+id/buttonwisatakrebet" />
+
+    </RelativeLayout>
+
+
+

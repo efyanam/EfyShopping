@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/Main6WisataYogya"
+    android:layout_height="match_parent"
+    android:background="@drawable/batikkawingwall"
+    tools:context="com.example.anas.myapplication1.Main6WisataYogya">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/color7"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Daftar Wisata Belanja Yogya"
+                android:textColor="@color/color1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="27dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonMalioboro"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="21dp"
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="Malioboro"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:id="@+id/buttonpasarberingharjo"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="PasarBeringharjo"
+            android:layout_below="@+id/buttonMalioboro"
+            android:layout_alignLeft="@+id/buttonMalioboro"
+            android:layout_alignStart="@+id/buttonMalioboro"
+            android:layout_marginTop="24dp" />
+        <Button
+            android:id="@+id/buttonkerajinanperakkotagede"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="Kerajinan Perak KotaGede"
+            android:layout_below="@+id/buttonpasarberingharjo"
+            android:layout_alignLeft="@+id/buttonpasarberingharjo"
+            android:layout_alignStart="@+id/buttonpasarberingharjo"
+            android:layout_marginTop="20dp" />
+        <Button
+            android:id="@+id/buttonpasarsoremalioboro"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="11dp"
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="PasarSoreMalioboro"
+            android:layout_below="@+id/buttonkerajinanperakkotagede"
+            android:layout_alignLeft="@+id/buttonkerajinanperakkotagede"
+            android:layout_alignStart="@+id/buttonkerajinanperakkotagede" />
+        <Button
+            android:id="@+id/buttoncoklatmonggo"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="CoklatMonggo"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/buttonpasarsoremalioboro"
+            android:layout_alignLeft="@+id/buttonpasarsoremalioboro"
+            android:layout_alignStart="@+id/buttonpasarsoremalioboro" />
+        <Button
+            android:id="@+id/buttonpasarkranggan"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/color1"
+            android:background="@color/color4"
+            android:text="PasarKranggan"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/buttoncoklatmonggo"
+            android:layout_alignLeft="@+id/buttoncoklatmonggo"
+            android:layout_alignStart="@+id/buttoncoklatmonggo" />
+
+
+
+
+
+</RelativeLayout>

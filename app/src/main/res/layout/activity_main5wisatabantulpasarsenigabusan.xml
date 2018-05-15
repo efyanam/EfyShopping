@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Pasarsenigabusan"
+    android:background="@drawable/gambar"
+    tools:context="com.example.anas.myapplication1.Main5wisatabantulpasarsenigabusan">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/pasargabusan1" />
+    <TextView
+        android:layout_width="396dp"
+        android:layout_marginTop="255dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:text="@string/pasarsenigabusan"
+        android:textSize="15dp"
+        android:fontFamily="casual"
+        android:textColor="@color/color8"
+        android:textStyle="bold"
+        android:id="@+id/pasarsenigabusan"/>
+    <TextView
+        android:id="@+id/textViewLinksenigabusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color1"
+        android:layout_marginTop="850dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/color7"
+        android:text="LihatPeta" />
+</FrameLayout>
+</ScrollView>
